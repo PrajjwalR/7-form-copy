@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+.hero{
+    background-color: rgb(36, 56, 70);
+    height: 30rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#login{
+    text-align: center;
+     margin-top: 40px;
+     border: 1px solid black;
+     padding-left: 15px;
+     height: 35px;
+     width: 200px;
+     background-color: rgb(13, 199, 90);
+     font-family: 'Roboto', sans-serif;
+     font-weight: inherit;
+     color: white;
+     font-stretch: expanded;
+     font-size: 15px;
+}
+#signup{
+    margin-top: 40px;
+    border: 1px solid black;
+    padding-right: 15px;
+    text-align: center;
+    height: 35px;
+    width: 200px;
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: inherit;
+    color: white;
+    font-stretch: expanded;
+    font-size: 15px;
+}
+
+#login:hover{
+    background-color: rgb(13, 199, 90);
+    cursor: grab;
+}
+#signup:hover{
+    background-color: rgb(13, 199, 90);
+    cursor: grab;
+}
+
+.h{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    color: white;
+    height: 2.5rem;
+    width: 18rem;
+    margin-left: 4rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.content{
+    display: flex;
+ justify-content: center;   
+}
+.more-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.content1{
+    height: 2rem;
+    width: 12rem;
+    margin: 8px;
+    background-color: rgb(36, 56, 70);
+    border: 1.5px solid rgb(121, 121, 118);
+    color: rgb(121, 121, 118);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    
+}
+
+.more-content1{
+    height: 2rem;
+    width: 25rem;
+    margin: 1rem;
+    background-color: rgb(36, 56, 70);
+    border: 1.5px solid rgb(121, 121, 118);
+    color: rgb(121, 121, 118);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+
+}
+#start1{
+    border: 1px solid black;
+    padding: .5rem;
+    margin: 1rem;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-size: x-large;
+    background-color: rgb(13, 199, 90);
+    color: white;
+    cursor: grab;
+}
+
+
